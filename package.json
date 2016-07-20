@@ -1,0 +1,23 @@
+{
+  "name": "ambientlight",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "build.json",
+    "ambientlight"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "clang -o ambientlight ambientlight.mm -framework IOKit -framework CoreFoundation",
+    "build": "npm run compile && babel index.js > build.js",
+    "prepublish": "npm run build"
+  },
+  "author": "Jarmo Isotalo",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
