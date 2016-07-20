@@ -1,8 +1,8 @@
 {
   "name": "ambientlight",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "build.js",
   "files": [
     "build.json",
     "ambientlight"
@@ -19,5 +19,8 @@
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
     "babel-preset-es2015": "^6.9.0"
+  },
+  "dependencies": {
+    "execa": "^0.4.0"
   }
 }
