@@ -37,7 +37,7 @@ int main(void) {
 
   krr = IOConnectCallMethod(dataPort, 0, nil, 0, nil, 0, values, &outputs, nil, 0);
   if (krr == KERN_SUCCESS) {
-    printf("%8lld %8lld", values[0], values[1]);
+    printf("%8lld", values[0]);
   }
 
   exit(0);
