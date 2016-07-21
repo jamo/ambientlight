@@ -1,6 +1,6 @@
 {
   "name": "ambientlight",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "build.js",
   "files": [
@@ -14,7 +14,20 @@
     "prepublish": "npm run build"
   },
   "author": "Jarmo Isotalo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamox/ambientlight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamox/ambientlight/issues"
+  },
   "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
